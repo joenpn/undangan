@@ -9,7 +9,7 @@
 body {
   font-size: 1.2rem;
   font-family: 'work sans', sans-serif;
-  min-height: 2000px;
+  min-height: 4000px;
 }
 
 .hero::before {
@@ -20,6 +20,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: url(image/nikah.jpeg);
+  background-size: cover;
+  background-position: center;
   z-index: -1;
   filter: grayscale();
 
@@ -37,11 +39,11 @@ body {
 
 .hero h1 {
   font-family: 'sacramento', cursive;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .hero h4{
-  font-size: 2.1rex;
+  font-size: 1.1rex;
 }
 
 .hero p{
@@ -58,6 +60,19 @@ background-color: var(--pink);
 color: white;
 }
 
+.mynavbar {
+
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.2rem;
+}
+
+.mynavbar .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+}
 
 /* Media Query */
 /* laptop*/
@@ -85,6 +100,10 @@ color: white;
 
   }
 
+
+  .mynavbar .nav-link {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 /* Mobile Phone */
