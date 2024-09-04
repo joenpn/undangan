@@ -61,17 +61,34 @@ color: white;
 }
 
 .mynavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
 
+}
+
+.mynavbar .offcanvas {
+  height: 100vh;
 }
 
 .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
   font-size: 3.2rem;
+  font-weight: bold;
 }
 
 .mynavbar .nav-link {
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.home {
+
+  background-image: url(png/1.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 
 /* Media Query */
@@ -117,4 +134,5 @@ color: white;
     margin: 2px;
 
   }
+}
 }
